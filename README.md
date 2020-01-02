@@ -14,8 +14,9 @@ curl -O https://raw.githubusercontent.com/jacklunee/v2ray-ws-tls/master/v2ray_ws
 3、等待安装完成，你可以看到配置参数，客户端配置时用到。
 
 4、安装BBR加速，指向下面命令
-
+#
 cd /usr/src && wget -N --no-check-certificate "https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh" && chmod +x tcp.sh && ./tcp.sh
+#
 5、注意在弹出的安装界面首先选择1，安装BBR内核,安装过程可能时间较长,耐心等待。
 
 6、安装完成后会提示重启VPS,输入Y，然后回车，确认重启。然后等待几分钟，再使用xshell连接vps（连接方法是点软件上打开，找到之前保存的连接，然后点连接）登陆后执行下列命令
