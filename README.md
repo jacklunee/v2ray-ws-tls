@@ -7,7 +7,7 @@
 
 1、使用SSH工具连接VPS，执行下列命令，选择安装v2ray+ws+tls
 
-curl -O https://raw.githubusercontent.com/atrandys/v2ray-ws-tls/master/v2ray_ws_tls1.3.sh && chmod +x v2ray_ws_tls1.3.sh && ./v2ray_ws_tls1.3.sh
+curl -O https://raw.githubusercontent.com/jacklunee/v2ray-ws-tls/master/v2ray_ws_tls1.3.sh && chmod +x v2ray_ws_tls1.3.sh && ./v2ray_ws_tls1.3.sh
 2、等待脚本执行，过程中会提示需要输入域名，输入解析到本VPS的域名，然后回车
 
 3、等待安装完成，你可以看到配置参数，客户端配置时用到。
